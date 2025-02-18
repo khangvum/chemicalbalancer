@@ -141,5 +141,5 @@ $$
 
 This project is a collaboration between:
 
--   
+-   **Ton Nu Thanh Thao**: [thaoton1910@gmail.com](mailto:thaoton1910@gmail.com)
 -   **Khang Vu:** [manhkhang0305@gmail.com](mailto:manhkhang0305@gmail.com) 
