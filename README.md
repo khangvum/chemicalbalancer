@@ -145,7 +145,7 @@ The following examples illustrate chemical equations that have been balanced usi
     
     **Solution:** $2C_{57}H_{104}O_6 + 161O_2 \rightarrow 114CO_2 + 106H_2O$
 
-2.  **Equation::** $C_{12}H_{22}O_{11} + KNO_3 \rightarrow K_2CO3 + N_2 + CO_2 + H_2O$
+2.  **Equation:** $C_{12}H_{22}O_{11} + KNO_3 \rightarrow K_2CO3 + N_2 + CO_2 + H_2O$
 
     **Solution:** $5C_{12}H_{22}O_{11} + 48KNO_3 \rightarrow 24K_2CO3 + 24N_2 + 36CO_2 + 55H_2O$
 
