@@ -149,9 +149,9 @@ The following examples illustrate chemical equations that have been balanced usi
 
     **Solution:** $5C_{12}H_{22}O_{11} + 48KNO_3 \rightarrow 24K_2CO3 + 24N_2 + 36CO_2 + 55H_2O$
 
-3.  **Equation:** $K_4[Fe(SCN)_6] + K_2Cr_2O_7 + H_2SO_4 -> Fe_2(SO_4)_3 + Cr_2(SO4)_3 + CO_2 + H_2O + K_2SO_4 + KNO_3$
+3.  **Equation:** $K_4[Fe(SCN)_6] + K_2Cr_2O_7 + H_2SO_4 \rightarrow Fe_2(SO_4)_3 + Cr_2(SO4)_3 + CO_2 + H_2O + K_2SO_4 + KNO_3$
     
-    **Solution:** $6K_4[Fe(SCN)_6] + 97K_2Cr_2O_7 + 355H_2SO_4 -> 3Fe_2(SO_4)_3 + 97Cr_2(SO4)_3 + 36CO_2 + 355H_2O + 91K_2SO_4 + 36KNO_3$
+    **Solution:** $6K_4[Fe(SCN)_6] + 97K_2Cr_2O_7 + 355H_2SO_4 \rightarrow 3Fe_2(SO_4)_3 + 97Cr_2(SO4)_3 + 36CO_2 + 355H_2O + 91K_2SO_4 + 36KNO_3$
 
 ## Collaboration
 
