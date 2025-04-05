@@ -44,7 +44,7 @@ $$
 
 where **A** is the coefficient matrix, and **x** is the vector of unknown stoichiometric coefficients.
 
-**Step 1: Convert to Augmented Matrix Form**
+### Step 1: Convert to Augmented Matrix Form
 
 Since the equation is homogeneous ($Ax = 0$), a **_zero column vector_** is appended to the matrix:
 
@@ -74,7 +74,7 @@ x_5
 \end{bmatrix}
 ```
 
-**Step 2: Transform to Reduced Row Echelon Form (RRRF)**
+### Step 2: Transform to Reduced Row Echelon Form (RRRF)
 
 **_Gaussian elimination_** is applied to transform **A** into an **_RREF matrix_**, where:
 
@@ -105,7 +105,7 @@ $$
 \end{bmatrix}
 $$
 
-**Step 3: Extract the Solution**
+### Step 3: Extract the Solution
 
 Since the system is **_underdetermined_** (more variables than equations), some variables have to be expressed **_in terms of others_**:
 
@@ -115,7 +115,7 @@ $$
 
 A **_free variable_** is then chosen (_e.g._ $x_5 = 1$) and substitute back to solve for integer values for all coefficients.
 
-**Step 4: Integer Scaling**
+### Step 4: Integer Scaling
 
 Since coefficients cannot be in **_fractions_** or **_decimals_**, they need scaling by multiplying them by the **_least common multiple_** (**_LCM_**) of denominators to obtain the **_smallest integer solution_**.
 
