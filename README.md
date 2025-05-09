@@ -12,7 +12,7 @@ A Python program that **_balances chemical equations_** by determining the corre
 
 Chemical equation balancing can be formulated as a **_system of linear equations_**, which can be solved using **_matrix algebra_**. The process involves the following steps:
 
-1.  **Representing the Equation as a Matrix**
+1.  **Equation Representation as a Matrix**
 
 Each chemical equation is **_parsed_** and then **_represented_** as a **_coefficient matrix_** where:
 
@@ -141,9 +141,9 @@ $$
 
 The following examples illustrate chemical equations that have been balanced using the algorithm:
 
-1.  **Equation:** $C_{57}H_{104}O_6 + O_2 \rightarrow CO_2 + H_2O$
+1.  **Equation:** $C_{57}H_{110}O_6 + O_2 \rightarrow CO_2 + H_2O$
     
-    **Solution:** $2C_{57}H_{104}O_6 + 161O_2 \rightarrow 114CO_2 + 106H_2O$
+    **Solution:** $2C_{57}H_{110}O_6 + 163O_2 \rightarrow 114CO_2 + 110H_2O$
 
 2.  **Equation:** $C_{12}H_{22}O_{11} + KNO_3 \rightarrow K_2CO3 + N_2 + CO_2 + H_2O$
 
