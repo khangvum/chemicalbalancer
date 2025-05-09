@@ -8,7 +8,6 @@ element_matrix = []
 print("Enter your chemical equation")
 print("e.g. Fe3O4+HNO3->Fe(NO3)2+Fe(NO3)3+H2O")
 equation = input()
-# equation = equation.replace(" ", "").split("->")
 equation = re.sub(r"[ \[\]]", "", equation).split("->")
 
 # Get the reactants and products from the equation
@@ -47,14 +46,14 @@ def find_elements(group, index, side, multiplier):
         i += 2 if elements[i + 1].isdigit() else 1
 
 # Decompose the compound into elements and their respective count 
-def analyze_compound(compound, index, side):
-    groups = re.split("(\([A-Za-z0-9]*\)[0-9]*)", compound)
+def decompose_compound(compound, index, side):
+    groups = re.split(r"(\([A-Za-z0-9]*\)[0-9]*)", compound)
     groups = [group for group in groups if group]
 
     for group in groups:
         multiplier = 1
         if group.startswith("("):
-            group = re.split("\)([0-9]*)", group)
+            group = re.split(r"\)([0-9]*)", group)
             if group[1].isdigit():
                 multiplier = int(group[1])
             group = group[0][1:]
@@ -62,9 +61,9 @@ def analyze_compound(compound, index, side):
         find_elements(group, index, side, multiplier)
 
 for i in range(len(reactants)):
-    analyze_compound(reactants[i], i, 1)
+    decompose_compound(reactants[i], i, 1)
 for i in range(len(products)):
-    analyze_compound(products[i], i + len(reactants), -1)
+    decompose_compound(products[i], i + len(reactants), -1)
 
 # Balance the equation
 element_matrix = Matrix(element_matrix).transpose()
