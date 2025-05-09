@@ -67,9 +67,11 @@ for i in range(len(products)):
 
 # Balance the equation
 element_matrix = Matrix(element_matrix).transpose()
-solution = element_matrix.nullspace()[0]    # Get the nullspace of the matrix (Solve the system of equations)
+# Get the nullspace of the matrix (Solve the system of equations)
+solution = element_matrix.nullspace()[0]    
+# Make all the coefficients integers
 multiple = lcm([val.q for val in solution])
-solution *= multiple    # Make all the coefficients integers
+solution *= multiple
 
 # Print the balanced equation
 coefficients = solution.tolist()
