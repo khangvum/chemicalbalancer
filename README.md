@@ -1,4 +1,4 @@
-# chemicalbalancer
+# Chemical Equation Balancer
 
 A Python program that **_balances chemical equations_** by determining the correct stoichiometric coefficients for each reactant and product.
 
