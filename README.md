@@ -2,6 +2,8 @@
 
 A Python program that **_balances chemical equations_** by determining the correct stoichiometric coefficients for each reactant and product.
 
+[![Security Scan](https://github.com/khangvum/chemicalbalancer/actions/workflows/security.yml/badge.svg)](https://github.com/khangvum/chemicalbalancer/actions/workflows/security.yml)
+
 ## Features
 
 -   Accepts chemical equations in a **_familiar format_** (_e.g._ `Fe3O4 + HNO3 -> Fe(NO3)2 + Fe(NO3)3 + H2O`).
